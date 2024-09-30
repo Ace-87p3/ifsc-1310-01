@@ -1,0 +1,26 @@
+/*  ----------css-demo------------------------   */
+
+/*  ---------------Box Sizing-----------------  */
+/* -----------color scheme #3300E6--------  */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+    background-color:lightcyan
+}
+
+Main{ 
+}
+
+Header.primary{
+    background-color:blue;
+    color: #ffffff;
+    text allign: center;
+    text-shadow:1px 1px #000000;
+}
