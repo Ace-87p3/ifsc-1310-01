@@ -12,7 +12,9 @@ html {
   }
   
 body{
-    background-color:lightcyan
+
+    background-color:rgb(115, 200, 200)
+    margin: 0px;
 }
 
 Main{ 
@@ -20,7 +22,80 @@ Main{
 
 Header.primary{
     background-color:blue;
+
     color: #ffffff;
-    text allign: center;
+
+    text-allign: center;
+
     text-shadow:1px 1px #000000;
+    
+    /*long form*/
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-left: 15px;
+    /* one value is for all sides of the box */
+    padding: 40px;
+    /* T,R,B,L */
+    padding: 20px 40px 20px 40px;
+    /* Two Value Top/Bottom / L/R */
+  padding: 20px 40px;
+}
+
+
+
+header.primary h1{
+ font-size:2rem;
+ margin:15px 0px;
+
+}
+header.primary h1 a{
+  color:crimson;
+  text-decoration:none;
+  /* top | left and right | bottom */
+margin: 20px 0 0;
+}
+header.primary h2{
+  font-size:1rem;
+  margin:0;
+}
+
+
+header.primary nav {}
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:10px 0;
+}
+header.primary nav ul li{
+  list-style-type:none;
+}
+header.primary nav ul li a{
+  color:#311b1b;
+  text-decoration:none;
+  border:2px solid #c0c0c0p;
+  padding:4px 8px;
+  background-color: rgba(0,0,0, .4);
+  border-radius:20px 5px;
+  transition:.8s;
+}
+header.primary nav ul li a:hover{
+  background-color: rgba(0,0,0, 1);
+}
+
+
+
+
+/*Media quries*/
+@media screen and (max-width:900px){
+  header.primary nav ul{
+    flex-direction:column;
+    gap:20px;
+    max-width:200px;
+    margin:0 auto;
+}
+
+header.primary nav a{
+  display:block;
 }
