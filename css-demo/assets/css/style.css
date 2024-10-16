@@ -24,7 +24,7 @@ html {
   float:right;
   padding:30px ;
   border:1px 0 0 0;
-  margin: 15px 0 15px 30px
+  margin: 15px 0 15px 30px;
 }
 
 .img-left{
@@ -47,7 +47,7 @@ html {
 body{
 
     background-color:rgb(26, 255, 68);
-    margin:antiquewhite 
+    margin:antiquewhite;
   }
 
 Main{ 
@@ -109,7 +109,7 @@ header.primary nav ul li{
 header.primary nav ul li a{
   color:#b41515;
   text-decoration:none;
-  border:2px solid #c0c0c0p;
+  border:2px solid #c0c0c0;
   padding:4px 8px;
   background-color: rgba(0,0,0, .4);
   border-radius:20px 5px;
@@ -204,7 +204,7 @@ td{ border: 1px solid #2b7f8e;
     text-align:right;
   } 
 aside[role="complementary"]{
-  background-color: ;
+  background-color: aquamarine ;
 padding: 40px 0;
 color: #000000 ;
 }
@@ -246,8 +246,7 @@ text-align:right;
       color: floralwhite;
 }
 aside article.widget footer{
-  display:none;
-
+  display:none;}
   
 
 /*Media quries*/
@@ -262,4 +261,4 @@ aside article.widget footer{
 
     }
 header.primary nav a{
-  display:block;}
+  display:block}
