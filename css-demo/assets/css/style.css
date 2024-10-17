@@ -250,7 +250,7 @@ aside article.widget footer{
   
 
 /*Media quries*/
-@media screen and (max-width:500px){
+@media screen and (max-width:400px){
   header.primary nav ul{
     flex-direction:column;
     gap:20px;
